@@ -97,3 +97,16 @@ body {
   
   
 }
+@media(max-width:500px){
+     .carousel {
+    width: 400px;
+    height: 200px;
+    
+  }
+
+  .carousel-button {
+   
+    font-size: 2rem;
+    
+  }
+}
