@@ -1,4 +1,4 @@
-*,
+Ok*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -98,4 +98,18 @@ body {
   }
 
 
+}
+  
+@media(max-width:500px){
+     .carousel {
+    width: 350px;
+    height: 175px;
+    
+  }
+
+  .carousel-button {
+   
+    font-size: 2rem;
+    
+  }
 }
