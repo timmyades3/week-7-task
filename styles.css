@@ -48,6 +48,7 @@ body {
   transition-delay: 0ms;
 }
 
+
 .carousel-button {
   position: absolute;
   z-index: 2;
@@ -61,6 +62,7 @@ body {
   border-radius: .25rem;
   padding: 0 .5rem;
   background-color: rgba(0, 0, 0, .3);
+
 }
 
 .carousel-button:hover,
@@ -82,18 +84,18 @@ body {
 }
 
 /* MOBILE */
-@media(max-width:752px){
+@media(max-width:752px) {
   .carousel {
     width: 550px;
     height: 300px;
-    
+
   }
 
   .carousel-button {
-   
+
     font-size: 2.8rem;
-    
+
   }
-  
-  
+
+
 }
